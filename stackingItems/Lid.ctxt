@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Lid
+comment0.text=\r\n\ Represents\ a\ lid\ in\ the\ stacking\ tower.\r\n\ \r\n\ @author\ Daniel\r\n\ @version\ 1.0\r\n
+comment1.params=size\ color
+comment1.target=Lid(int,\ java.lang.String)
+comment1.text=\r\n\ Creates\ a\ lid\ with\ a\ given\ size\ and\ color.\r\n
+comment2.params=
+comment2.target=int\ getSize()
+comment3.params=
+comment3.target=java.lang.String\ getType()
+comment4.params=
+comment4.target=java.lang.String\ getColor()
+numComments=5
