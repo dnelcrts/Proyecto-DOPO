@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=Cup
+comment1.params=size
+comment1.target=Cup(int)
+comment2.params=
+comment2.target=int\ getSize()
+comment3.params=
+comment3.target=java.lang.String\ getType()
+comment4.params=
+comment4.target=java.lang.String\ getColor()
+numComments=5
