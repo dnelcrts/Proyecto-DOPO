@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=StackingItem
+comment0.text=\r\n\ Represents\ an\ item\ that\ can\ be\ stacked\ in\ a\ tower.\r\n\ Cups\ and\ lids\ are\ stacking\ items.\r\n\ \r\n\ @author\ Daniel\r\n\ @version\ 1.0\r\n
+comment1.params=size\ color\ type
+comment1.target=StackingItem(int,\ java.lang.String,\ java.lang.String)
+comment1.text=\r\n\ Creates\ a\ stacking\ item\ with\ a\ given\ size,\ color\ and\ type.\r\n\ \r\n\ @param\ size\ the\ size\ of\ the\ item\r\n\ @param\ color\ the\ color\ of\ the\ item\r\n\ @param\ type\ the\ type\ of\ the\ item\ (cup\ or\ lid)\r\n
+comment2.params=
+comment2.target=int\ getSize()
+comment2.text=\r\n\ Returns\ the\ size\ of\ the\ item.\r\n\ \r\n\ @return\ size\ of\ the\ item\r\n
+comment3.params=
+comment3.target=java.lang.String\ getType()
+comment3.text=\r\n\ Returns\ the\ type\ of\ the\ item.\r\n\ \r\n\ @return\ type\ of\ the\ item\r\n
+comment4.params=
+comment4.target=java.lang.String\ getColor()
+comment4.text=\r\n\ Returns\ the\ color\ of\ the\ item.\r\n\ \r\n\ @return\ color\ of\ the\ item\r\n
+numComments=5
