@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=StackingItem
+comment0.text=\r\n\ Representa\ un\ elemento\ que\ puede\ apilarse\ en\ la\ torre.\r\n\ Las\ tazas\ y\ tapas\ son\ elementos\ apilables.\r\n\ \r\n\ @author\ Daniel\ Cortes\r\n\ @version\ 2.0\r\n
+comment1.params=size\ color\ type
+comment1.target=StackingItem(int,\ java.lang.String,\ java.lang.String)
+comment1.text=\r\n\ Crea\ un\ elemento\ apilable\ con\ tamanio,\ color\ y\ tipo\ dados.\r\n\ \r\n\ @param\ size\ \ tamanio\ del\ elemento\r\n\ @param\ color\ color\ del\ elemento\r\n\ @param\ type\ \ tipo\ del\ elemento\ ("cup"\ o\ "lid")\r\n
+comment2.params=
+comment2.target=int\ getSize()
+comment2.text=\r\n\ Retorna\ el\ tamanio\ del\ elemento.\r\n\ \r\n\ @return\ tamanio\ del\ elemento\r\n
+comment3.params=
+comment3.target=java.lang.String\ getType()
+comment3.text=\r\n\ Retorna\ el\ tipo\ del\ elemento.\r\n\ \r\n\ @return\ tipo\ del\ elemento\r\n
+comment4.params=
+comment4.target=java.lang.String\ getColor()
+comment4.text=\r\n\ Retorna\ el\ color\ del\ elemento.\r\n\ \r\n\ @return\ color\ del\ elemento\r\n
+numComments=5
