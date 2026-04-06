@@ -1,7 +1,0 @@
-#BlueJ class context
-comment0.target=NormalLid
-comment0.text=\r\n\ Representa\ una\ tapa\ normal\ en\ la\ torre\ de\ apilamiento.\r\n\ Se\ comporta\ como\ la\ tapa\ original\ del\ proyecto.\r\n\ Extiende\ Lid\ usando\ el\ mecanismo\ de\ herencia.\r\n\ \r\n\ @author\ Daniel\ Cortes\r\n\ @version\ 2.0\r\n
-comment1.params=size\ color
-comment1.target=NormalLid(int,\ java.lang.String)
-comment1.text=\r\n\ Crea\ una\ tapa\ normal\ con\ tamanio\ y\ color\ dados.\r\n\ El\ color\ es\ el\ mismo\ de\ su\ taza\ correspondiente.\r\n\ \r\n\ @param\ size\ \ tamanio\ de\ la\ tapa\r\n\ @param\ color\ color\ de\ la\ tapa\r\n
-numComments=2

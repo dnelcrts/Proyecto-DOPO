@@ -1,7 +1,0 @@
-#BlueJ class context
-comment0.target=OpenerCup
-comment0.text=\r\n\ Representa\ una\ taza\ tipo\ opener\ en\ la\ torre\ de\ apilamiento.\r\n\ Al\ entrar\ a\ la\ torre,\ elimina\ todas\ las\ tapas\ que\ le\ impiden\ el\ paso.\r\n\ Extiende\ Cup\ usando\ el\ mecanismo\ de\ herencia.\r\n\ \r\n\ @author\ Daniel\ Cortes\r\n\ @version\ 2.0\r\n
-comment1.params=size
-comment1.target=OpenerCup(int)
-comment1.text=\r\n\ Crea\ una\ taza\ opener\ con\ tamanio\ dado.\r\n\ El\ color\ es\ naranja\ para\ distinguirla\ visualmente.\r\n\ \r\n\ @param\ size\ tamanio\ de\ la\ taza\r\n
-numComments=2

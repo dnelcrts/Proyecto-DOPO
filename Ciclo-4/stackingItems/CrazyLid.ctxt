@@ -1,7 +1,0 @@
-#BlueJ class context
-comment0.target=CrazyLid
-comment0.text=\r\n\ Representa\ una\ tapa\ tipo\ crazy\ en\ la\ torre\ de\ apilamiento.\r\n\ En\ lugar\ de\ tapar\ a\ su\ taza,\ se\ ubica\ en\ la\ base\ de\ la\ torre.\r\n\ Extiende\ Lid\ usando\ el\ mecanismo\ de\ herencia.\r\n\ \r\n\ @author\ Daniel\ Cortes\r\n\ @version\ 2.0\r\n
-comment1.params=size\ color
-comment1.target=CrazyLid(int,\ java.lang.String)
-comment1.text=\r\n\ Crea\ una\ tapa\ crazy\ con\ tamanio\ y\ color\ dados.\r\n\ El\ color\ es\ magenta\ para\ distinguirla\ visualmente.\r\n\ \r\n\ @param\ size\ \ tamanio\ de\ la\ tapa\r\n\ @param\ color\ color\ de\ la\ tapa\r\n
-numComments=2
