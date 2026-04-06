@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=TowerContest
+comment0.text=\r\n\ Resuelve\ y\ simula\ el\ problema\ de\ la\ maraton\ de\ tazas.\r\n\ Clase\ Tower\ se\ usa\ SOLO\ para\ simular,\ no\ para\ resolver.\r\n\r\n\ @author\ Daniel\r\n\ @version\ 1.0\r\n
+comment1.params=n\ h
+comment1.target=java.lang.String\ solve(int,\ long)
+comment1.text=\r\n\ Resuelve\ el\ problema\:\ encuentra\ el\ orden\ de\ tazas\ para\ altura\ h.\r\n\r\n\ Idea\ clave\:\r\n\ La\ altura\ de\ la\ torre\ \=\ suma\ de\ alturas\ de\ una\ "cadena"\ de\ tazas\r\n\ que\ se\ apoyan\ unas\ en\ otras\ desde\ el\ suelo.\r\n\ Hay\ dos\ casos\:\r\n\ CASO\ 1\ (cup_n\ en\ la\ cadena)\:\ h\ \=\ suma\ de\ alturas\ de\ las\ tazas\ en\ la\ cadena.\r\n\ CASO\ 2\ (cup_n\ como\ contenedor)\:\ h\ \=\ 1\ +\ suma\ de\ alturas\ de\ la\ cadena\ interior.\r\n\r\n\ @param\ n\ numero\ de\ tazas\r\n\ @param\ h\ altura\ deseada\r\n\ @return\ String\ con\ las\ alturas\ en\ orden,\ o\ "impossible"\r\n
+comment2.params=n\ h
+comment2.target=void\ simulate(int,\ long)
+comment2.text=\r\n\ Simula\ la\ solucion\ usando\ Tower\ para\ visualizar.\r\n\ Tower\ se\ usa\ SOLO\ para\ mostrar,\ no\ para\ calcular.\r\n\r\n\ @param\ n\ numero\ de\ tazas\r\n\ @param\ h\ altura\ deseada\r\n
+comment3.params=n\ h
+comment3.target=boolean\ isPossible(int,\ long)
+comment3.text=\r\n\ Verifica\ si\ la\ altura\ h\ es\ posible\ con\ n\ tazas.\r\n\ Valores\ imposibles\:\ h\ <\ 2n-1,\ h\ >\ n^2,\ o\ h\ \=\=\ n^2-2\ (para\ n\ >\=\ 3).\r\n
+comment4.params=S\ k
+comment4.target=int[]\ subsetSumOdds(long,\ int)
+comment4.text=\r\n\ Encuentra\ un\ subconjunto\ de\ {1,\ 3,\ 5,\ ...,\ 2k-1}\ que\ sume\ exactamente\ S.\r\n\ Retorna\ los\ INDICES\ de\ los\ elementos\ seleccionados\ (1-based),\ o\ null\ si\ imposible.\r\n\r\n\ Propiedad\:\ {1,3,...,2k-1}\ puede\ representar\ todos\ los\ valores\ de\ 0\ a\ k^2\r\n\ EXCEPTO\ k^2-2\ (para\ k\ >\=\ 2).\r\n
+comment5.params=n\ chainIndices\ cupNFirst
+comment5.target=java.lang.String\ buildOrder(int,\ int[],\ boolean)
+comment5.text=\r\n\ Construye\ el\ String\ de\ alturas\ en\ orden\ dado\ una\ cadena.\r\n\r\n\ @param\ n\ numero\ total\ de\ tazas\r\n\ @param\ chainIndices\ indices\ de\ las\ tazas\ en\ la\ cadena\ (sin\ cup_n)\r\n\ @param\ cupNFirst\ si\ true,\ cup_n\ va\ primero\ (CASO\ 2);\ si\ false,\ va\ al\ final\ de\ la\ cadena\ (CASO\ 1)\r\n
+numComments=6
