@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Lid
+comment0.text=\r\n\ Representa\ una\ tapa\ en\ la\ torre\ de\ apilamiento.\r\n\ Es\ la\ clase\ base\ para\ todos\ los\ tipos\ de\ tapas.\r\n\ Usa\ herencia\ para\ permitir\ diferentes\ comportamientos.\r\n\ \r\n\ @author\ Daniel\ Cortes\r\n\ @version\ 2.0\r\n
+comment1.params=size\ color
+comment1.target=Lid(int,\ java.lang.String)
+comment1.text=\r\n\ Crea\ una\ tapa\ con\ tamanio\ y\ color\ dados.\r\n\ \r\n\ @param\ size\ \ tamanio\ de\ la\ tapa\r\n\ @param\ color\ color\ de\ la\ tapa\r\n
+numComments=2

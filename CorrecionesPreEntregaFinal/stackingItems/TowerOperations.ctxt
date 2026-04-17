@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=TowerOperations
+comment0.text=\r\n\ Contiene\ las\ operaciones\ complejas\ sobre\ la\ lista\ de\ items\ de\ la\ torre.\r\n\ Tower\ delega\ aqui\ la\ logica\ que\ no\ es\ solo\ agregar\ o\ quitar\ items.\r\n\ \r\n\ @author\ Daniel\r\n\ @version\ 1.0\r\n
+comment1.params=items\ maxHeight
+comment1.target=java.util.ArrayList\ orderTower(java.util.ArrayList,\ int)
+comment1.text=\r\n\ Ordena\ los\ items\ de\ mayor\ a\ menor\ tamanio.\r\n\ Primero\ va\ la\ taza\ y\ luego\ la\ tapa\ de\ cada\ tamanio.\r\n\ \r\n\ @param\ items\ lista\ de\ items\ de\ la\ torre\r\n\ @param\ maxHeight\ altura\ maxima\ de\ la\ torre\r\n\ @return\ lista\ ordenada\r\n
+comment2.params=items\ maxHeight
+comment2.target=java.util.ArrayList\ reverseTower(java.util.ArrayList,\ int)
+comment2.text=\r\n\ Invierte\ el\ orden\ de\ los\ items.\r\n\ \r\n\ @param\ items\ lista\ de\ items\ de\ la\ torre\r\n\ @param\ maxHeight\ altura\ maxima\ de\ la\ torre\r\n\ @return\ lista\ invertida\r\n
+comment3.params=items
+comment3.target=java.util.ArrayList\ cover(java.util.ArrayList)
+comment3.text=\r\n\ Coloca\ cada\ tapa\ directamente\ encima\ de\ su\ taza\ correspondiente.\r\n\ Usa\ la\ relacion\ Cup-Lid\ para\ encontrar\ la\ taza\ correcta.\r\n\ \r\n\ @param\ items\ lista\ de\ items\ de\ la\ torre\r\n\ @return\ lista\ reorganizada\r\n
+comment4.params=items\ o1\ o2
+comment4.target=java.util.ArrayList\ swap(java.util.ArrayList,\ java.lang.String[],\ java.lang.String[])
+comment4.text=\r\n\ Intercambia\ dos\ items\ en\ la\ lista.\r\n\ Si\ una\ taza\ tiene\ tapa,\ la\ tapa\ se\ mueve\ con\ ella.\r\n\ \r\n\ @param\ items\ lista\ de\ items\ de\ la\ torre\r\n\ @param\ o1\ primer\ item\ como\ {tipo,\ tamanio}\r\n\ @param\ o2\ segundo\ item\ como\ {tipo,\ tamanio}\r\n\ @return\ lista\ con\ los\ items\ intercambiados,\ o\ null\ si\ no\ se\ pudo\r\n
+comment5.params=items
+comment5.target=java.lang.String[][]\ swapToReduce(java.util.ArrayList)
+comment5.text=\r\n\ Busca\ un\ intercambio\ que\ reduzca\ la\ altura\ de\ la\ torre.\r\n\ \r\n\ @param\ items\ lista\ de\ items\ de\ la\ torre\r\n\ @return\ los\ dos\ items\ a\ intercambiar,\ o\ arreglo\ vacio\ si\ no\ hay\ ninguno\r\n
+numComments=6

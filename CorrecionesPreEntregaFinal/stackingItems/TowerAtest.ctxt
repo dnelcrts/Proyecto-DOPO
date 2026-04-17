@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=TowerAtest
+comment0.text=\r\n\ Pruebas\ de\ aceptacion\ para\ el\ Ciclo\ 4.\r\n\ Evidencian\ los\ comportamientos\ mas\ importantes\ del\ simulador.\r\n\ Cada\ prueba\ muestra\ la\ simulacion\ visualmente\ y\ pregunta\ al\ usuario\r\n\ si\ la\ acepta.\r\n\r\n\ @author\ Daniel\ Cortes\r\n\ @version\ 1.0\r\n
+comment1.params=
+comment1.target=void\ testAceptacionNuevosTiposDeTazas()
+comment1.text=\r\n\ Prueba\ de\ aceptacion\ 1\:\r\n\ Demuestra\ el\ comportamiento\ de\ OpenerCup\ y\ HierarchicalCup.\r\n\ Una\ OpenerCup\ elimina\ tapas\ al\ entrar.\r\n\ Una\ HierarchicalCup\ desplaza\ elementos\ menores\ y\ no\ puede\r\n\ quitarse\ si\ llego\ al\ fondo.\r\n
+comment2.params=
+comment2.target=void\ testAceptacionNuevosTiposDeTapas()
+comment2.text=\r\n\ Prueba\ de\ aceptacion\ 2\:\r\n\ Demuestra\ el\ comportamiento\ de\ FearfulLid,\ CrazyLid\ y\ StickyLid.\r\n\ FearfulLid\ no\ sale\ si\ esta\ tapando\ su\ taza.\r\n\ CrazyLid\ se\ ubica\ en\ la\ base.\r\n\ StickyLid\ solo\ puede\ quitarse\ con\ removeLid.\r\n
+comment3.params=
+comment3.target=void\ runAll()
+comment3.text=\r\n\ Ejecuta\ ambas\ pruebas\ de\ aceptacion.\r\n
+comment4.params=ms
+comment4.target=void\ pausa(int)
+numComments=5
